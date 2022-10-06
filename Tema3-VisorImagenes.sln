@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema3-VisorImagenes", "Tema3-VisorImagenes\Tema3-VisorImagenes.csproj", "{4A17C4E1-BE62-4DE4-AEDD-F0D9C6FD7CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A17C4E1-BE62-4DE4-AEDD-F0D9C6FD7CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A17C4E1-BE62-4DE4-AEDD-F0D9C6FD7CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A17C4E1-BE62-4DE4-AEDD-F0D9C6FD7CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A17C4E1-BE62-4DE4-AEDD-F0D9C6FD7CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66E9D46F-5A6E-4FD9-926F-B90544607C01}
+	EndGlobalSection
+EndGlobal
