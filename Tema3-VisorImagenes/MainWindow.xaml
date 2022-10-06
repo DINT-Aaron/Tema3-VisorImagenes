@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         Title="Visor de imágenes" Icon="assets/32.ico" MinWidth="700" MinHeight="600" Height="450" Width="800">
     <DockPanel>
-        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Background="LightBlue" Margin="5" Height="60">
-            <TextBlock FontFamily="Rubik" FontSize="20">Nº de imágenes: 10</TextBlock>
-            <TextBlock FontFamily="Rubik" FontSize="20">Diseñado por Javier Catalá</TextBlock>
-        </StackPanel>
-        <Border Margin="0 0 10 0" DockPanel.Dock="Right" BorderThickness="3" BorderBrush="Black" CornerRadius="3" Background="LightGreen">
+        <DockPanel LastChildFill="False" DockPanel.Dock="Bottom" Background="LightBlue" Margin="5" Height="60">
+            <TextBlock Margin="5" VerticalAlignment="Center" FontFamily="Rubik" FontSize="20">Nº de imágenes: 10</TextBlock>
+            <TextBlock Margin="5" VerticalAlignment="Center" DockPanel.Dock="Right" FontFamily="Rubik" FontSize="20">Diseñado por Javier Catalá</TextBlock>
+        </DockPanel>
+        <Border Margin="5 10" DockPanel.Dock="Right" BorderThickness="3" BorderBrush="Black" CornerRadius="3" Background="LightGreen">
             <DockPanel LastChildFill="False">
                 <StackPanel DockPanel.Dock="Top">
-                    <Button Margin="5">Añadir imagen</Button>
+                    <Button Width="120" Margin="5">Añadir imagen</Button>
                     <Button Margin="5">Eliminar imagen</Button>
                     <Button Margin="5">Eliminar todas</Button>
                 </StackPanel>
@@ -24,8 +24,8 @@
                 </StackPanel>
             </DockPanel>
         </Border>
-        <TextBlock DockPanel.Dock="Top" FontFamily="Rubik" FontSize="40" HorizontalAlignment="Center">Visor de imágenes</TextBlock>
-        <WrapPanel>
+        <TextBlock DockPanel.Dock="Top" FontFamily="Rubik" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center">Visor de imágenes</TextBlock>
+        <WrapPanel Margin="0 20">
             <Image Source="assets/episodioIV.jpg" Width="130"></Image>
             <Image Source="assets/episodioIV.jpg" Width="130"></Image>
             <Image Source="assets/episodioIV.jpg" Width="130"></Image>
